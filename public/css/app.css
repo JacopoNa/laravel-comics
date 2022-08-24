@@ -116,3 +116,75 @@ main .content .container .load span {
   display: inline-block;
   margin-bottom: 15px;
 }
+main .shop {
+  background-color: #0282f9;
+  padding: 40px 0;
+  color: white;
+}
+main .shop ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .shop ul li img {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+main .shop ul li img.locator {
+  width: 30px;
+}
+main .shop ul li span {
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+footer .footer-top {
+  background-image: url("../img/footer-bg.jpg");
+  height: 300px;
+  overflow: hidden;
+}
+footer .footer-top .footer-list {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: flex;
+}
+footer .footer-top .footer-list ul {
+  margin-right: 30px;
+}
+footer .footer-top .footer-list ul li {
+  font-size: 10px;
+  margin: 5px 0;
+  color: lightgray;
+}
+footer .footer-top .footer-list ul li.first-li {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 15px 0;
+  color: white;
+}
+footer .footer-top .footer-logo img {
+  width: 500px;
+}
+footer .footer-bottom {
+  height: 100px;
+  background-color: #303030;
+}
+footer .footer-bottom .sign div {
+  color: white;
+  background-color: #303030;
+  border: 2px solid #0282f9;
+  padding: 10px;
+}
+footer .footer-bottom .socials ul {
+  display: flex;
+  align-items: center;
+}
+footer .footer-bottom .socials ul li {
+  margin: 10px;
+}
+footer .footer-bottom .socials ul li.follow {
+  color: #0282f9;
+  font-weight: 600;
+}

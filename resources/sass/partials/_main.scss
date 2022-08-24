@@ -62,4 +62,32 @@ main {
             }
         }
     }
+
+    .shop {
+        background-color: $primary_color;
+        padding: 40px 0;
+        color: $secondary_color;
+
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li{
+
+                img{
+                    width: 40px;
+                    vertical-align: middle;
+                    margin-right: 10px;
+                    &.locator {
+                        width: 30px;
+                    }
+                }
+                span{
+                    font-size: 12px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
 }
