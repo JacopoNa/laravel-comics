@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    @include('partials.header')
+
+    <main>
+        contenuto
+    </main>
+
+    @include('partials.footer')
 </body>
 </html>
