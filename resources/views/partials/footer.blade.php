@@ -57,26 +57,40 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="sign">
-                    <div>SIGN-UP NOW!</div>
+                    <div>
+                        <a href="#">SIGN-UP NOW!</a>
+                    </div>
                 </div>
 
                 <div class="socials">
                     <ul>
-                        <li class="follow">FOLLOW US</li>
-                        <li>
-                            <img src="{{ asset('img/footer-facebook.png') }}" alt="socials">
+                        <li class="follow">
+                            <a href="#">FOLLOW US</a>
                         </li>
                         <li>
-                            <img src="{{ asset('img/footer-twitter.png') }}" alt="socials">
+                            <a href="#">
+                                <img src="{{ asset('img/footer-facebook.png') }}" alt="socials">
+                            </a>
                         </li>
                         <li>
-                            <img src="{{ asset('img/footer-youtube.png') }}" alt="socials">
+                            <a href="#">
+                                <img src="{{ asset('img/footer-twitter.png') }}" alt="socials">
+                            </a>
                         </li>
                         <li>
-                            <img src="{{ asset('img/footer-periscope.png') }}" alt="socials">
+                            <a href="#">
+                                <img src="{{ asset('img/footer-youtube.png') }}" alt="socials">
+                            </a>
                         </li>
                         <li>
-                            <img src="{{ asset('img/footer-pinterest.png') }}" alt="socials">
+                            <a href="#">
+                                <img src="{{ asset('img/footer-periscope.png') }}" alt="socials">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="{{ asset('img/footer-pinterest.png') }}" alt="socials">
+                            </a>
                         </li>
 
                     </ul>

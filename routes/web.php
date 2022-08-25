@@ -23,3 +23,8 @@ Route::get('/', function () {
 
     return view('comics', $data);
 });
+
+Route::get('/description', function () {
+
+    return view('description');
+});
