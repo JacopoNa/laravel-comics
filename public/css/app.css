@@ -193,6 +193,8 @@ main .content .container .main-content .advertisement {
 }
 main .content .container .main-content .advertisement div {
   text-align: end;
+  font-weight: 600;
+  color: #575656;
 }
 main .content .main-bottom {
   background-color: #f6f6f6;
@@ -219,11 +221,12 @@ main .content .main-bottom .info .by {
   border-bottom: 2px solid lightgrey;
   font-size: 13px;
 }
-main .content .main-bottom .info .by .span {
-  width: 30%;
+main .content .main-bottom .info .by span {
+  width: 40%;
 }
 main .content .main-bottom .info .by div {
-  width: 70%;
+  display: contents;
+  width: 60%;
   color: #02abdb;
 }
 main .content .main-bottom .info .specs {
