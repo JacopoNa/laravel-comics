@@ -60,7 +60,7 @@ header .menu ul li.current {
   border-bottom: 3px solid #0282f9;
 }
 
-main .content {
+main.back-color {
   background-color: #1c1c1c;
   color: white;
 }
@@ -79,6 +79,36 @@ main .content .jumbo .box-text {
   bottom: -20px;
   left: 250px;
 }
+main .content .jumbo .comic-box {
+  position: absolute;
+  bottom: -20px;
+  left: 250px;
+  border: 1px solid white;
+  color: white;
+}
+main .content .jumbo .comic-box img {
+  width: 140px;
+}
+main .content .jumbo .comic-box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 10px;
+  background-color: #00a9d9;
+  padding: 2px;
+}
+main .content .jumbo .comic-box div {
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+  text-align: center;
+  background-color: #00a9d9;
+  width: 100%;
+}
+main .content .main-top {
+  height: 50px;
+  background-color: #0282f9;
+}
 main .content .container {
   display: block;
 }
@@ -86,14 +116,16 @@ main .content .container .comic-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-top: 35px;
 }
 main .content .container .comic-list .single-card {
   width: 15%;
+  margin-bottom: 30px;
 }
 main .content .container .comic-list .single-card .image-card {
   margin-bottom: 15px;
   width: 100%;
-  height: 50%;
+  height: 140px;
 }
 main .content .container .comic-list .single-card .image-card img {
   width: 100%;
@@ -115,6 +147,87 @@ main .content .container .load span {
   padding: 10px 35px;
   display: inline-block;
   margin-bottom: 15px;
+}
+main .content .container .main-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .content .container .main-content .comic-text {
+  width: 65%;
+}
+main .content .container .main-content .comic-text h2 {
+  margin-bottom: 20px;
+  color: #003f5e;
+}
+main .content .container .main-content .comic-text .green-bar {
+  display: flex;
+  width: 100%;
+  background-color: #55ba59;
+  margin-bottom: 15px;
+  font-size: 13px;
+  font-weight: 600;
+}
+main .content .container .main-content .comic-text .green-bar .price {
+  width: 70%;
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid black;
+}
+main .content .container .main-content .comic-text .green-bar .price div {
+  color: #b0fc9a;
+}
+main .content .container .main-content .comic-text .green-bar .price span {
+  color: white;
+}
+main .content .container .main-content .comic-text .green-bar .ava {
+  width: 30%;
+  padding: 13px;
+  text-align: center;
+  color: white;
+}
+main .content .container .main-content .advertisement {
+  width: 28%;
+}
+main .content .container .main-content .advertisement div {
+  text-align: end;
+}
+main .content .main-bottom {
+  background-color: #f6f6f6;
+  border-top: 2px solid lightgrey;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+main .content .main-bottom .info {
+  display: flex;
+  justify-content: space-between;
+}
+main .content .main-bottom .info h3 {
+  padding: 10px 0;
+  border-bottom: 2px solid lightgray;
+}
+main .content .main-bottom .info .talent {
+  width: 48%;
+}
+main .content .main-bottom .info .by {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 2px solid lightgrey;
+  font-size: 13px;
+}
+main .content .main-bottom .info .by .span {
+  width: 30%;
+}
+main .content .main-bottom .info .by div {
+  width: 70%;
+  color: #02abdb;
+}
+main .content .main-bottom .info .specs {
+  width: 48%;
 }
 main .shop {
   background-color: #0282f9;
